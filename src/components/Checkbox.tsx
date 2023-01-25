@@ -27,7 +27,7 @@ export function Checkbox({ title, checked = false, ...rest}: Props) {
       <View className='h-8 w-8 bg-zinc-900 rounded-lg'/>
     )}
 
-    <Text className='text-white ml-3 text-base'>
+    <Text className='text-white ml-3 text-base font-semibold'>
       {title}
     </Text>
       
